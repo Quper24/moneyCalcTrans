@@ -25,7 +25,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 
@@ -63,7 +62,6 @@ p {
 
 h1, h2, h3 {
     line-height: 1.5;
-    
 }
 
 h4 {
@@ -81,19 +79,19 @@ main {
     border-radius: 25px;
 }
 
-.total__balance{
+.total__balance {
     font-size: 28px;
     font-weight: bold;
 }
 
-.total__header{
+.total__header {
     border-bottom: 1px solid #ccc;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.total__main{
+.total__main {
     display: flex;
     justify-content: space-between;
 }
@@ -102,10 +100,9 @@ main {
     flex: 1;
     text-align: center;
     padding-top: 15px;
-
 }
 
-.total__main-item:first-child{
+.total__main-item:first-child {
     border-right: 1px solid #ccc;
 }
 
@@ -130,9 +127,9 @@ main {
     align-items: center;
     background-color: #fff;
     border-width: 1px;
+    border-style: solid;
     border-left: 10px solid;
     border-right: 10px solid;
-    border-style: solid;
     border-radius: 10px;
     color: #333;
     display: flex;
@@ -142,26 +139,26 @@ main {
     line-height: 25px;
 }
 
-.history__item-plus{
-    border-left-color:  darkgreen;
+.history__item-plus {
+    border-left-color: darkgreen;
     border-right-color: darkgreen;
 }
 
-.history__item-minus{
-    border-left-color:  tomato;
+.history__item-minus {
+    border-left-color: tomato;
     border-right-color: tomato;
 }
 
-.history__money{
+.history__money {
     flex: 1;
     text-align: right;
     padding-right: 10px;
 }
 
-.history_delete{
+.history__delete {
     background-color: transparent;
     color: red;
-    padding: 0 10;
+    padding: 0;
     border-width: 0;
     font-size: 20px;
     opacity: 0;
@@ -169,7 +166,7 @@ main {
     cursor: pointer;
 }
 
-.history__item:hover .history_delete{
+.history__item:hover .history__delete {
     opacity: 1;
 }
 
@@ -182,18 +179,18 @@ main {
 }
 
 
-.operation__fields{
+.operation__fields {
     display: block;
     border: 1px solid #ccc;
     border-radius: 10px;
-    padding:  10px 15px;
+    padding: 10px 15px;
     margin: 5px 0;
     font-size: 16px;
     width: 100%;
     outline: transparent;
 }
 
-.operation__fields:focus{
+.operation__fields:focus {
     border: 1px solid darkorange;
 }
 

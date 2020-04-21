@@ -5,22 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кошелек JS</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
 
-    <head>
+    <header>
         <h1>Кошелек</h1>
         <h2>Калькулятор расходов</h2>
-    </head>
+    </header>
 
     <main>
         <div class="container">
             <section class="total">
                 <header class="total__header">
                     <h3>Баланс</h3>
-                <p class="total__balance">0 ₽</p>
+                    <p class="total__balance">0 ₽</p>
                 </header>
                 <div class="total__main">
                     <div class="total__main-item total__income">
@@ -43,12 +44,12 @@
                 <ul class="history__list">
                     <li class="history__item history__item-plus">Получил зарплату
                         <span class="history__money">+30000 ₽</span>
-                        <button class="history_delete">x</button>
+                        <button class="history__delete">x</button>
                     </li>
 
                     <li class="history__item  history__item-minus">Отдал долг
                         <span class="history__money">-10000 ₽</span>
-                        <button class="history_delete">x</button>
+                        <button class="history__delete">x</button>
                     </li>
                 </ul>
             </section>
@@ -68,7 +69,7 @@
             </section>
         </div>
     </main>
-
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
